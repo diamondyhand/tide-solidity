@@ -22,7 +22,7 @@ contract NFT is ERC721, Ownable, Pausable {
     event TokenMinted(uint256 indexed tokenId, address owner);
     event BaseURIUpdated(string indexed oldValue, string indexed newValue);
 
-    constructor() ERC721('Tide', 'Tide') {}
+    constructor() ERC721('Tide', 'TDE') {}
 
     /// @notice Owner can only mint their the NFT and transfer NFT to receiver.
     /// @param receiver The address of the user receiving the nft.
